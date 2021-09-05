@@ -29,4 +29,4 @@
  <p>Перенапрвление происходит с помощью тега <<code>meta</code>> в голове HTML-кода:<br><br><<code>meta http-equiv="refresh" content="0; url=main.php"</code>></p>
  
  <h3>JQuery</h3>
- <p>JS-библиотека, или фреймворк, JQuery находится в папке с таким же именем в проекте. И добавление этого фреймворка в код происходит как раз из этой папки с помощью кода: <<code>script defer type='text/javascript' src='JQuery/jquery.js'/>/</script</code>></p>
+ <p>JS-библиотека, или фреймворк, JQuery находится в папке с таким же именем в проекте. И добавление этого фреймворка в код происходит как раз из этой папки с помощью кода: <<code>script defer type='text/javascript' src='JQuery/jquery.js'></script</code>></p>
