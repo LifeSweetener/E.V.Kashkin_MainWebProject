@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>JQuery</title>
+		<link rel='stylesheet' type='text/css' href='styles.css'/>
+		<script src="jquery-3.6.0.min.js"></script>
+		<script>
+			function clickHandler()
+			{
+				var t1 = document.getElemetById("t1").value;
+				var t2 = document.getElemetById("t2").value;
+				
+				if (t1 == t2) {
+					document.getElemetById("t1").style.border="2px solid #00FF00";
+					document.getElemetById("t2").style.border="2px solid #00FF00";
+					document.getElementById("txt").innerHTML="<font color='#00FF00'>Пароли совпадают</font>";
+				}
+				else {
+					document.getElemetById("t1").style.border="2px solid #FF0000";
+					document.getElemetById("t2").style.border="2px solid #FF0000";
+					document.getElementById("txt").innerHTML="<font color='#FF0000'>Пароли совпадают</font>";
+				}
+			}
+		</script>
+	</head>
+	
+	<body>
+		<table>
+			<tr>
+				<td><input type='text' id='t1'></input></td>
+				<td rowspan='2'><div id='txt'></div></td>
+			</tr>
+			<tr>
+				<td><input type='text' id='t2'></input></td>
+			</tr>
+		</table>
+		
+		<input type='button' id='btn' onClick='clickHandler()'>
+	</body>
+</html>

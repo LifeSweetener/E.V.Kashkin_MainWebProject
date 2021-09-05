@@ -1,0 +1,165 @@
+﻿html {
+	font-family: Arial;
+	overflow: auto;
+	font-size: 16pt;
+}
+
+a:link {
+	color: MediumSpringGreen;
+	text-decoration: none;
+	background-color: Plum;
+	background-size: 90px;
+}
+a:visited {
+	color: BlueViolet;
+	text-decoration: none;
+}
+a:hover {
+	color: LemonChiffon;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:active {
+	color: Pink;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.book {
+	font-weight: 500;
+	background-image: url(images/background1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #F2F2F2;
+	text-align: center;
+}
+
+h2 {
+	background-color: #DADADA;
+	box-shadow: 4px 2px 10px 2px #888;
+	font-weight: 700;
+	text-align: center;
+	font-size: 26pt;
+}
+
+form {
+	text-align: center;
+	margin: 10px;
+	background-color: #FFA522;
+	opacity: 0.7;
+	box-shadow: 3px 1px 6px 2px #888;
+}
+
+table {
+	margin: 5% auto;
+	border: 4px groove #CB0000;
+	width: 90%;
+	border-collapse: collapse;
+	overflow: scroll;
+	text-align: center;
+	border-radius: 10px;
+}
+
+table > caption {
+    text-align: center;
+	font-weight: bold;
+	font-size: 24pt;
+}
+
+table td {
+	font-size: 20pt; 
+	font-weight: 700;
+}
+
+.left_td {
+	text-align: center;
+}
+
+.right_td {
+	text-align: left;
+}
+
+label {
+	font-size: 20pt;
+	font-style: italic;
+}
+
+.message {
+	font-size: 22pt;
+	font-weight: 400;
+	font-family: Arial;
+	cursor: pointer;
+	text-align: center;
+	color: red;
+}
+
+.site-style {
+    color: #BC0000;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 28pt;
+}
+
+button {
+	cursor: pointer;
+	font-size: 32pt;
+	background: LightSalmon;
+	border: 6px ridge tomato;
+	width: 450px;
+	height: 80px;
+	margin: auto;
+	position: relative;
+}
+
+button:hover {
+	cursor: pointer;
+	font-size: 32pt;
+	background: coral;
+	border: 6px outset tomato;
+	width: 450px;
+	height: 80px;
+	margin: auto;
+	position: relative;
+}
+
+button:active {
+	cursor: pointer;
+	font-size: 32pt;
+	background: gold;
+	border: 6px inset tomato;
+	width: 450px;
+	height: 80px;
+	margin: auto;
+	position: relative;
+}
+
+.checkboxBut_notchecked {
+	cursor: pointer;
+	background-size: 20pt;
+	border: 2px ridge #7FFFD4;
+	background-image: url(images/notchecked.png);
+	width: 25px;
+	height: 30px;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.checkboxBut_checked {
+	cursor: pointer;
+	background-size: 20pt;
+	border: 2px ridge #7FFFD4;
+	background-image: url(images/checked.png);
+	width: 25px;
+	height: 30px;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+input[type='email'], input[type='password'] {
+	font-family: Arial;
+	font-weight: 400;
+    font-size: 16pt;
+	width: 20%;
+	height: 8%;
+}

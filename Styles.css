@@ -1,0 +1,283 @@
+table {
+	border: 4px groove #44DC44;
+	width: 50%;
+	margin: 5% auto;
+	z-index: 1;
+	border-radius: 10px;
+}
+
+body {
+	font-family: Arial;
+	font-size: 20pt;
+    font-weight: 500;
+}
+
+table td {
+	font-family: Arial;
+	font-size: 20pt;
+    font-weight: 500;
+	border: 1px dashed #88F188;
+}
+
+.header {
+	font-weight: bold;
+	font-size: 24pt;
+	color: #FF3344;
+	text-align: center;
+	border: none;
+}
+
+table th {
+	font-family: Arial;
+	font-size: 24pt;
+    font-weight: bold;
+	border: 3px dashed #88F188;
+}
+
+button {
+	cursor: pointer;
+	font-size: 32pt;
+	background: LightSalmon;
+	border: 6px ridge tomato;
+	width: 450px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+button:hover {
+	cursor: pointer;
+	font-size: 32pt;
+	background: coral;
+	border: 6px outset tomato;
+	width: 450px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+button:active {
+	cursor: pointer;
+	font-size: 32pt;
+	background: gold;
+	border: 6px inset tomato;
+	width: 450px;
+	height: 80px;
+	margin: 0 auto;
+}
+
+.book {
+	background-image: url(images/background1.png);
+	background-repeat: no-repeat;
+	background-color: #F2F2F2;
+}
+
+.processingBody {
+	font-family: Arial;
+	font-size: 20pt;
+    font-weight: bold;
+	color: #FFD700;
+	background-color: #FFB6C1;
+	text-align: center;
+	overflow: auto;
+}
+
+tbody .common {
+	font-family: Arial;
+	font-size: 18pt;
+    font-weight: 400;
+	color: #FFFAFA;
+	overflow: auto;
+	text-align: center;
+	background-color: Goldenrod;
+	opacity: 90%;
+}
+
+.common .special {
+	font-family: Arial;
+	font-size: 18pt;
+    font-weight: 800;
+	color: #FFFAFA;
+	overflow: auto;
+	text-align: center;
+	background-color: #F4A460;
+	opacity: 90%;
+	font-style: italic;
+}
+
+.common .quote {
+	font-family: Arial;
+	font-size: 18pt;
+    font-weight: 800;
+	color: black;
+	overflow: auto;
+	text-align: center;
+	background-color: #F5F5F5;
+	opacity: 90%;
+	font-style: italic;
+}
+
+.common .by {
+	font-family: Arial;
+	font-size: 20pt;
+    font-weight: 800;
+	color: #FF00FF;
+	overflow: auto;
+	text-align: right;
+	background-color: #F5F5F5;
+	opacity: 90%;
+	font-style: italic;
+}
+
+.common .important {
+	font-family: Arial;
+	font-size: 18pt;
+    font-weight: bold;
+	color: #ADFF2F;
+	overflow: auto;
+	text-align: center;
+	background-color: #DAA520;
+	opacity: 90%;
+	font-style: normal;
+}
+
+a:link {
+	color: #00A200;
+	text-decoration: none;
+}
+a:visited {
+	color: #A0497F;
+	text-decoration: none;
+}
+a:hover {
+	color: #008200;
+	text-decoration: underline;
+	cursor: pointer;
+}
+a:active {
+	color: #999900;
+	text-decoration: underline;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.a-static {
+	font-family: Arial;
+	font-size: 30pt;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+.a-static:link {
+	font-family: Arial;
+	font-size: 30pt;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+.a-static:visited {
+	font-family: Arial;
+	font-size: 30pt;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+.a-static:hover {
+	font-family: Arial;
+	font-size: 30pt;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.a-static:active {
+	font-family: Arial;
+	font-size: 30pt;
+	font-weight: bold;
+	color: inherit;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.site-style {
+    color: #BC0000;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 28pt;
+}
+
+tbody .input {
+	font-family: Arial;
+	font-size: 18pt;
+    font-weight: 400;
+	color: #FFFAFA;
+	overflow: auto;
+	text-align: center;
+	background-color: #FBB641;
+	opacity: 90%;
+}
+
+.errorForm {
+	font-family: Arial;
+	font-size: 20pt;
+    font-weight: 500;
+	overflow: auto;
+	text-align: center;
+	background-color: #FFA07A;
+	color: #C71585;
+	width: 50%;
+	height: 50%;
+	position: absolute;
+}
+
+.bodyError {
+	font-family: Arial;
+	font-size: 26pt;
+    font-weight: bold;
+	overflow: auto;
+	text-align: center;
+	border: 2px ridge #FFDAB9;
+	background: #FFDAB9;
+	color: #8B008B;
+}
+
+.account_info {
+	font-family: Arial;
+	font-size: 30pt;
+    font-weight: bold;
+	text-align: right;
+	color: red;
+	background-image: linear-gradient(pink, orange);
+	opacity: 80%;
+	width: 15%;
+	margin: 0 80%;
+	position: fixed;
+	z-index: 2;
+}
+
+.account_info:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 60%; top: 80%;
+    z-index: 3;
+    background: rgba(240,255,240,0.8);
+    font-family: Arial;
+    font-size: 16px;
+    border: 1px solid yellow;
+	color: Fuchsia;
+}
+
+.email {
+	font-family: Arial;
+    font-size: 24px;
+	margin: 5% 5%;
+}
+
+.email::first-letter {
+	font-family: Arial;
+	font-weight: bold;
+    font-size: 36px;
+	color: red;
+}
